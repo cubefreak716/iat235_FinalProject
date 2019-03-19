@@ -10712,14 +10712,14 @@ header.masthead h1 {
 
 #portfolio .container-fluid {
   max-width: 1920px;
-  height: 500px;
+  height: 600px;
 
 }
 
 #portfolio .container-fluid .portfolio-box {
   position: relative;
   display: block;
-  height: 500px;
+  height: 600px;
 }
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption {
