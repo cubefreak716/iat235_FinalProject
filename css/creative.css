@@ -79,7 +79,8 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
-
+  align: left;
+  border-width: 100 px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -439,6 +440,7 @@ hr {
   margin-bottom: 1rem;
   border: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
+  align:left;
 }
 
 small,
@@ -6918,7 +6920,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #85c7f2 !important;
+  background-color: #61728e !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10574,15 +10576,37 @@ html {
 }
 
 hr.divider {
+  margin-left:0;
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+  border-color: #85c7f2;
+  align: left;
+}
+
+hr.divider2 {
 
   max-width: 3.25rem;
   border-width: 0.2rem;
   border-color: #85c7f2;
-
+  align: left;
 }
 
 hr.light {
-  border-color: #fff;
+  border-color: #85c7f2;
+}
+
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
 }
 
 .btn {
