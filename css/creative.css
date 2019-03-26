@@ -10748,8 +10748,8 @@ header.masthead h1 {
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption {
 
-  /* display: -webkit-box; */
-  /* display: -ms-flexbox; */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -10771,7 +10771,9 @@ header.masthead h1 {
   background: rgba(133, 199, 242, 0.9);
   -webkit-transition: opacity 0.25s ease;
   transition: opacity 0.25s ease;
-  text-align: center;
+  text-align: left;
+  font-size: 0.8rem;
+    padding-left: 10px;
 }
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category {
@@ -10779,13 +10781,20 @@ header.masthead h1 {
   font-size: 0.85rem;
   font-weight: 600;
   text-transform: uppercase;
+  text-align: center;
+/*category  */
+
 }
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name {
   font-size: 1.2rem;
+/*title  */
 
 }
 
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+  text-align: left;
+
+
 }
