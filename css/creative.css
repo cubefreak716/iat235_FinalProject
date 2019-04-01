@@ -213,6 +213,9 @@ img {
 .smImg{
   width:40%;
 }
+.mdImg{
+  width:99.2%; 
+}
 
 svg {
   overflow: hidden;
