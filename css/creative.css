@@ -10768,11 +10768,11 @@ header.masthead h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(133, 199, 242, 0.9);
+  background: rgba(133, 199, 242, 0.7);
   -webkit-transition: opacity 0.25s ease;
   transition: opacity 0.25s ease;
   text-align: left;
-  font-size: 0.8rem;
+  font-size: 1.1rem;
   padding: 40px;
 }
 
