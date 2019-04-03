@@ -10737,10 +10737,19 @@ header.masthead h1 {
   }
 }
 
+.sideWays{
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+.normWays{
+  writing-mode: horizontal-tb;
+  text-orientation: mixed;
+}
+
 #portfolio .container-fluid {
   max-width: 1920px;
   height: 600px;
-  background: rgb(99, 99, 99);
+  background: rgb(255, 255, 255);
 
 }
 
@@ -10780,6 +10789,8 @@ header.masthead h1 {
   padding: 40px;
 }
 
+
+
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* font-family: 'Ubuntu';  */
@@ -10794,12 +10805,9 @@ header.masthead h1 {
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name {
   font-size: 1.2rem;
 /*title  */
-
 }
 
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
   text-align: left;
-
-
 }
