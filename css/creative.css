@@ -213,6 +213,9 @@ img {
 .smImg{
   width:40%;
 }
+.mdImg{
+  width:90%;
+}
 
 svg {
   overflow: hidden;
@@ -10737,7 +10740,7 @@ header.masthead h1 {
 #portfolio .container-fluid {
   max-width: 1920px;
   height: 600px;
-  background: rgba(99, 99, 99);
+  background: rgb(99, 99, 99);
 
 }
 
@@ -10769,7 +10772,7 @@ header.masthead h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  /* background: rgba(133, 199, 242, 0.9); */
+  background: rgba(133, 199, 242, 0.9);
   -webkit-transition: opacity 0.25s ease;
   transition: opacity 0.25s ease;
   text-align: left;
