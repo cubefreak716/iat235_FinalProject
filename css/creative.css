@@ -215,7 +215,14 @@ img {
 }
 .mdImg{
   width:90%;
+  margin: 0;
+  padding: 0;
 }
+.LLImg{
+  width:120%;
+
+}
+
 
 svg {
   overflow: hidden;
@@ -570,6 +577,13 @@ pre code {
 }
 
 .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container2 {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
