@@ -214,7 +214,7 @@ img {
   width:40%;
 }
 .mdImg{
-  width:90%;
+  width:60%;
   margin: 0;
   padding: 0;
 }
@@ -223,7 +223,9 @@ img {
 
 }
 .kImg{
-    width:90%;
+  width:60%;
+  margin: 2rem;
+  padding: 0;
 }
 
 
@@ -511,9 +513,10 @@ mark,
   height: auto;
 }
 .img-fluid2{
-
-  height:100%;
+  /* max-width: 100%;
+  object-fit: fill; */
 }
+
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -10768,7 +10771,7 @@ header.masthead h1 {
 
 #portfolio .container-fluid {
   max-width: 1920px;
-  /* height: 600px; */
+
   background: rgb(255, 255, 255);
 
 }
@@ -10776,7 +10779,8 @@ header.masthead h1 {
 #portfolio .container-fluid .portfolio-box {
   position: relative;
   display: block;
-  height: 600px;
+
+
 }
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption {
@@ -10801,12 +10805,14 @@ header.masthead h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(133, 199, 242, 0.9);
+  background: rgba(110, 113, 119, 0.9);
   -webkit-transition: opacity 0.25s ease;
   transition: opacity 0.25s ease;
   text-align: left;
   font-size: 1rem;
   padding: 40px;
+
+
 }
 
 
