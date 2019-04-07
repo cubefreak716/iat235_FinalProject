@@ -229,9 +229,15 @@ img {
 }
 
 
+
 svg {
   overflow: hidden;
   vertical-align: middle;
+}
+
+.svgC{
+  text-align: center;
+  fill: rgb(110, 113, 119);
 }
 
 table {
