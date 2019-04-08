@@ -228,6 +228,9 @@ img {
   padding: 0;
 }
 
+.textLeft{
+  text-align: left;
+}
 
 
 svg {
